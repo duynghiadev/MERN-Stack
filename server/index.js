@@ -1,10 +1,13 @@
+require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
+
+const authRouter = require("./routes/auth");
 
 const connectDB = async () => {
   try {
     await mongoose.connect(
-      `mongodb+srv://duynghia22302:ErE4Q9rIs2zIwzs4@mern-learnit.fkuzydx.mongodb.net/?appName=mern-learnit`,
+      `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@mern-learnit.fkuzydx.mongodb.net/?appName=mern-learnit`,
       {
         useCreateIndex: true,
         useNewUrlParser: true,
@@ -22,9 +25,11 @@ const connectDB = async () => {
 connectDB();
 
 const app = express();
+app.use(express.json());
 
 app.get("/", (req, res) => res.send("Hello world"));
 
+app.use("/api/auth", authRouter);
 const PORT = 5000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
