@@ -28,3 +28,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhY
   "url": "react.com",
   "status": "LEARNING"
 }
+
+###
+
+GET http://localhost:5000/api/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTkzMTM1NzZ9.bEpy0yPJ7Goteu7oLswsvT5N_PyTXceih7oXfalntAI
