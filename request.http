@@ -2,7 +2,7 @@ POST http://localhost:5000/api/auth/register
 Content-Type: application/json
 
 {
-  "username": "duynghia",
+  "username": "duynghiadev",
   "password": "123456"
 }
 
@@ -14,4 +14,17 @@ Content-Type: application/json
 {
   "username": "duynghia",
   "password": "123456"
+}
+
+###
+
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhYTIwOWZkZjhlYjQxMWM0NzJlODUiLCJpYXQiOjE3MTkzMTI5MDZ9.e9x5I68bk-5t8OunYwb2Uy2NH3REVTHs_EE5NZmtkaQ
+
+{
+  "title": "React",
+  "description": "React",
+  "url": "react.com",
+  "status": "LEARNING"
 }

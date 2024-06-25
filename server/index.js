@@ -3,6 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const authRouter = require("./routes/auth");
+const postRouter = require("./routes/post");
 
 const connectDB = async () => {
   try {
@@ -30,6 +31,7 @@ app.use(express.json());
 app.get("/", (req, res) => res.send("Hello world"));
 
 app.use("/api/auth", authRouter);
+app.use("/api/posts", postRouter);
 const PORT = 5000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
