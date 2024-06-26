@@ -5,6 +5,7 @@ Welcome to the MERN Tutorial - LearnIt project! This repository contains the sou
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Website Images](#website-images)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -15,6 +16,40 @@ Welcome to the MERN Tutorial - LearnIt project! This repository contains the sou
 ## Introduction
 
 LearnIt is a simple learning platform built using the MERN stack. It aims to provide a foundational understanding of how to integrate MongoDB, Express, React, and Node.js to create a modern web application. This tutorial is perfect for beginners who want to get started with the MERN stack.
+
+## Website Images
+
+## Login
+
+![login page](./images/image.png)
+
+## Register
+
+![register page](./images/image-1.png)
+
+## Dashboard
+
+For users who already have an account, this is the dashboard page after logging in, showing all the courses they are enrolled in.
+
+![dashboard](./images/image-2.png)
+
+For new users who haven't created any courses yet, the site will display information like this.
+
+![welcome user](./images/image-3.png)
+
+## About Page
+
+The About page doesn't have much, just a button that redirects to another link when clicked.
+
+![Button redirect](./images/image-4.png)
+
+## Creating a Course
+
+These are the steps to create a course.
+
+![Form create course](./images/image-5.png)
+![Information form](./images/image-6.png)
+![Finish create course](./images/image-7.png)
 
 ## Features
 
