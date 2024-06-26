@@ -1,6 +1,6 @@
 import axios from "axios";
 import { createContext, useEffect, useReducer } from "react";
-import { authReducer } from "../reducers/authReducer";
+import { authReducer } from "../reducers/AuthReducer";
 import setAuthToken from "../utils/setAuthToken";
 import { apiUrl, LOCAL_STORAGE_TOKEN_NAME } from "./constants";
 
