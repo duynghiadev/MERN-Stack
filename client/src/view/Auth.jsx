@@ -6,7 +6,6 @@ const Auth = ({ authRoute }) => {
 
   body = (
     <>
-      LearnIt
       {authRoute === "login" && <LoginForm />}
       {authRoute === "register" && <RegisterForm />}
     </>
