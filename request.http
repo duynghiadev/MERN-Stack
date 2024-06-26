@@ -33,3 +33,22 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhY
 
 GET http://localhost:5000/api/posts
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTkzMTM1NzZ9.bEpy0yPJ7Goteu7oLswsvT5N_PyTXceih7oXfalntAI
+
+###
+
+PUT http://localhost:5000/api/posts/667aa1965920383e18cc20b1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTkzMTM1NzZ9.bEpy0yPJ7Goteu7oLswsvT5N_PyTXceih7oXfalntAI
+
+{
+  "title": "React",
+  "description": "React is perfect",
+  "url": "Vue.org",
+  "status": "LEARNING"
+}
+
+###
+
+DELETE http://localhost:5000/api/posts/667aa1965920383e18cc20b1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTkzMTM1NzZ9.bEpy0yPJ7Goteu7oLswsvT5N_PyTXceih7oXfalntAI
+
