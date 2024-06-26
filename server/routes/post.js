@@ -5,7 +5,7 @@ const verifyToken = require("../middleware/auth");
 const Post = require("../models/Post");
 
 // @route GET api/posts
-// @desc Get post
+// @desc Get posts
 // @access Private
 router.get("/", verifyToken, async (req, res) => {
   try {
@@ -42,7 +42,7 @@ router.post("/", verifyToken, async (req, res) => {
 
     await newPost.save();
 
-    res.json({ success: true, message: "Hapy learning!", post: newPost });
+    res.json({ success: true, message: "Happy learning!", post: newPost });
   } catch (error) {
     console.log(error);
     res.status(500).json({ success: false, message: "Internal server error" });
@@ -69,10 +69,7 @@ router.put("/:id", verifyToken, async (req, res) => {
       status: status || "TO LEARN",
     };
 
-    const postUpdateCondition = {
-      _id: req.params.id,
-      user: req.userId,
-    };
+    const postUpdateCondition = { _id: req.params.id, user: req.userId };
 
     updatedPost = await Post.findOneAndUpdate(
       postUpdateCondition,
@@ -80,16 +77,16 @@ router.put("/:id", verifyToken, async (req, res) => {
       { new: true }
     );
 
-    // User not authorised to update post
+    // User not authorised to update post or post not found
     if (!updatedPost)
       return res.status(401).json({
-        sucess: false,
-        message: "Post not found or user or user not authorised",
+        success: false,
+        message: "Post not found or user not authorised",
       });
 
     res.json({
       success: true,
-      message: "Excellent progress",
+      message: "Excellent progress!",
       post: updatedPost,
     });
   } catch (error) {
@@ -103,10 +100,7 @@ router.put("/:id", verifyToken, async (req, res) => {
 // @access Private
 router.delete("/:id", verifyToken, async (req, res) => {
   try {
-    const postDeleteCondition = {
-      _id: req.params.id,
-      user: req.userId,
-    };
+    const postDeleteCondition = { _id: req.params.id, user: req.userId };
     const deletedPost = await Post.findOneAndDelete(postDeleteCondition);
 
     // User not authorised or post not found
@@ -119,7 +113,7 @@ router.delete("/:id", verifyToken, async (req, res) => {
     res.json({ success: true, post: deletedPost });
   } catch (error) {
     console.log(error);
-    rse.status(500).json({ success: false, message: "Internal server error" });
+    res.status(500).json({ success: false, message: "Internal server error" });
   }
 });
 
