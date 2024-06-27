@@ -20,25 +20,25 @@ Content-Type: application/json
 
 POST http://localhost:5000/api/posts
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhYTIwOWZkZjhlYjQxMWM0NzJlODUiLCJpYXQiOjE3MTkzMTI5MDZ9.e9x5I68bk-5t8OunYwb2Uy2NH3REVTHs_EE5NZmtkaQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTk0NTMyMjR9.8EMcLzcDmAyPPoaoWH-IjY-ne9FnzWyiVl0AkJCvWAA
 
 {
-  "title": "React",
-  "description": "React",
-  "url": "react.com",
+  "title": "Python",
+  "description": "Python",
+  "url": "python.com",
   "status": "LEARNING"
 }
 
 ###
 
 GET http://localhost:5000/api/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTkzMTM1NzZ9.bEpy0yPJ7Goteu7oLswsvT5N_PyTXceih7oXfalntAI
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTk0NTMyMjR9.8EMcLzcDmAyPPoaoWH-IjY-ne9FnzWyiVl0AkJCvWAA
 
 ###
 
-PUT http://localhost:5000/api/posts/667aa1965920383e18cc20b1
+PUT http://localhost:5000/api/posts/667cc6557b000d4244a6489c
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTkzMTM1NzZ9.bEpy0yPJ7Goteu7oLswsvT5N_PyTXceih7oXfalntAI
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTk0NTMyMjR9.8EMcLzcDmAyPPoaoWH-IjY-ne9FnzWyiVl0AkJCvWAA
 
 {
   "title": "React",
@@ -49,6 +49,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhO
 
 ###
 
-DELETE http://localhost:5000/api/posts/667aa1965920383e18cc20b1
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTkzMTM1NzZ9.bEpy0yPJ7Goteu7oLswsvT5N_PyTXceih7oXfalntAI
+DELETE http://localhost:5000/api/posts/667a9cb14da97b48d0884eb2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjdhODVmYzliMjlmNDE1NjRhYTFhNmUiLCJpYXQiOjE3MTk0NTMyMjR9.8EMcLzcDmAyPPoaoWH-IjY-ne9FnzWyiVl0AkJCvWAA
 
