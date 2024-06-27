@@ -1,7 +1,7 @@
-import Card from "react-bootstrap/Card";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Badge from "react-bootstrap/Badge";
+import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import ActionButtons from "./ActionButtons";
 
 const SinglePost = ({ post: { _id, status, title, description, url } }) => (

@@ -1,7 +1,7 @@
-import Modal from "react-bootstrap/Modal";
+import { useContext, useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { useContext, useState, useEffect } from "react";
+import Modal from "react-bootstrap/Modal";
 import { PostContext } from "../../contexts/PostContext";
 
 const UpdatePostModal = () => {
