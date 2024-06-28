@@ -1,6 +1,6 @@
 export const apiUrl =
   process.env.NODE_ENV !== "production"
-    ? "https://mern-stack-learn-it-backend.vercel.app/api"
+    ? "https://mern-stack-duynghiadevs-projects.vercel.app/api"
     : "";
 
 export const LOCAL_STORAGE_TOKEN_NAME = "learnit-mern";
