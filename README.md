@@ -6,7 +6,7 @@ Welcome to the MERN Tutorial - LearnIt project! This repository contains the sou
 
 ✔ [Link deployed](https://mern-stack-learnit.netlify.app)
 
-✔ [Wesite netlify](https://mern-stack-learnit.netlify.app)
+✔ [Wesite netlify](https://app.netlify.com/sites/mern-stack-learnit/overview)
 
 2. server
 
