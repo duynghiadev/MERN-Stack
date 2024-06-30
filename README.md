@@ -33,35 +33,35 @@ LearnIt is a simple learning platform built using the MERN stack. It aims to pro
 
 ## Login
 
-![login page](https://github.com/duynghiadev/MERN-Stack/blob/main/images/image.png)
+![login page](./images/image.png)
 
 ## Register
 
-![register page](https://github.com/duynghiadev/MERN-Stack/blob/main/images/image-1.png)
+![register page](./images/image-1.png)
 
 ## Dashboard
 
 For users who already have an account, this is the dashboard page after logging in, showing all the courses they are enrolled in.
 
-![dashboard](https://github.com/duynghiadev/MERN-Stack/blob/main/images/image-2.png)
+![dashboard](./images/image-2.png)
 
 For new users who haven't created any courses yet, the site will display information like this.
 
-![welcome user](https://github.com/duynghiadev/MERN-Stack/blob/main/images/image-3.png)
+![welcome user](./images/image-3.png)
 
 ## About Page
 
 The About page doesn't have much, just a button that redirects to another link when clicked.
 
-![Button redirect](https://github.com/duynghiadev/MERN-Stack/blob/main/images/image-4.png)
+![Button redirect](./images/image-4.png)
 
 ## Creating a Course
 
 These are the steps to create a course.
 
-![Form create course](https://github.com/duynghiadev/MERN-Stack/blob/main/images/image-5.png)
-![Information form](https://github.com/duynghiadev/MERN-Stack/blob/main/images/image-6.png)
-![Finish create course](https://github.com/duynghiadev/MERN-Stack/blob/main/images/image-7.png)
+![Form create course](./images/image-5.png)
+![Information form](./images/image-6.png)
+![Finish create course](./images/image-7.png)
 
 ## Features
 
