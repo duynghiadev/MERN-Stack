@@ -2,6 +2,18 @@
 
 Welcome to the MERN Tutorial - LearnIt project! This repository contains the source code for a MERN stack application that demonstrates how to build a full-stack web application using MongoDB, Express, React, and Node.js.
 
+1. client
+
+✔ [Link deployed](https://mern-stack-learnit.netlify.app)
+
+✔ [Wesite netlify](https://mern-stack-learnit.netlify.app)
+
+2. server
+
+✔ [Link server](https://mern-stack-snowy.vercel.app/api/posts)
+
+✔ [Website Vercel](https://vercel.com/duynghiadevs-projects/mern-stack)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
